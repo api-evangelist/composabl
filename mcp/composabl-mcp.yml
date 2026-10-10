@@ -1,0 +1,34 @@
+generated: '2026-10-10'
+method: derived
+generator: derive-mcp-candidate.py
+source:
+- openapi/_ae-authored/composabl-openapi-generated.yml
+status: candidate
+deployment:
+  mode: none
+  auth: unknown
+  verified: probed
+note: No MCP server was found. The pre-flight posted tools/list to /mcp on docs.amesa.com, www.amesa.com, api.amesa.com, app.amesa.com; verdict
+  absent. Candidate tools below are derived from the 4 operation(s) in the provider's own OpenAPI (4 listed); they describe what a server WOULD
+  expose, not one that exists.
+tools:
+- name: get_reference_cli_reference_clireferenceid
+  operationId: get_reference_cli_reference_clireferenceid
+  method: GET
+  path: /reference/cli-reference/{clireferenceid}
+  description: Querying This Documentation
+- name: get_reference_sdk_reference_core_coreid
+  operationId: get_reference_sdk_reference_core_coreid
+  method: GET
+  path: /reference/sdk-reference/core/{coreid}
+  description: Agent API
+- name: get_reference_sdk_reference_sdkreferenceid
+  operationId: get_reference_sdk_reference_sdkreferenceid
+  method: GET
+  path: /reference/sdk-reference/{sdkreferenceid}
+  description: AMESA Core API Documentation
+- name: get_reference_referenceid
+  operationId: get_reference_referenceid
+  method: GET
+  path: /reference/{referenceid}
+  description: CLI Reference

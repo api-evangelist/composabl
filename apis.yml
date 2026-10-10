@@ -1,23 +1,106 @@
 aid: composabl
+
 name: Composabl
-description: 'Composabl is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://framerusercontent.com/images/HgrehJaMFETtADKu2s9c5KbfxQ.png
+
+description: Composabl, now operating as AMESA, provides an advanced modular enterprise system for autonomous agent orchestration. The platform
+  enables enterprises to design, train, and deploy intelligent agents at scale, offering tools for simulation, skill generation, and multi‑agent
+  system management. AMESA focuses on industrial AI, delivering secure, data‑driven solutions for complex enterprise workflows.
+
 url: https://raw.githubusercontent.com/api-evangelist/composabl/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-10 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-09'
+
 modified: '2026-10-09'
+
 tags:
+- AI
+- Enterprise
+- Automation
+- Agents
+- Platform
 - Company
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Spectral
+  url: rules/composabl-rules.yml
+- type: CLI
+  url: cli/composabl-cli.yml
+- type: ChangeLog
+  url: changelog/composabl-changelog.yml
+- type: Conformance
+  url: conformance/composabl-conformance.yml
+- type: LLMsTxt
+  url: llms/composabl-llms.txt
+- type: WellKnown
+  url: well-known/composabl-well-known.yml
+- type: Hosts
+  url: hosts/composabl-hosts.yml
+- type: Vendors
+  url: vendors/composabl-vendors.yml
+- type: TrustCenter
+  url: https://trust.amesa.com/
+- type: TermsOfService
+  url: https://www.amesa.com/terms
+- type: PrivacyPolicy
+  url: https://www.amesa.com/privacy
+- type: APIReference
+  url: https://docs.amesa.com/reference/glossary
+- type: GettingStarted
+  url: https://docs.amesa.com/getting-started
+- type: DomainSecurity
+  url: security/composabl-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.amesa.com/
+- type: Documentation
+  url: https://docs.amesa.com/
+- type: DeveloperPortal
+  url: https://docs.amesa.com/
+
+apis:
+- name: AMESA Platform API
+  description: Composabl, now operating as AMESA, provides an advanced modular enterprise system for autonomous agent orchestration.
+  humanURL: https://docs.amesa.com/
+  baseURL: null
+  aid: composabl:amesa-platform-api
+- aid: composabl:composabl-api
+  name: Composabl API
+  description: 'Composabl API as documented publicly: 4 operations. Contract generated from the documentation by API Evangelist (2026-10-10);
+
+    not the provider''s own document.'
+  humanURL: https://docs.amesa.com/reference/glossary.md
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/composabl-openapi-generated.yml
+    x-provenance: generated
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: Documentation pages exist but no OpenAPI, GraphQL, AsyncAPI, gRPC, or WSDL files were found.
+  evidence:
+  - url: https://docs.amesa.com/
+    status: 200
+  checked: '2026-10-10'
+x-enrichment:
+  date: '2026-10-10'
+  status: enriched
+  artifacts_added: 16
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

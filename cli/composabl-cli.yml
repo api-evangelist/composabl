@@ -1,0 +1,50 @@
+generated: '2026-10-10'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.amesa.com/reference/cli-reference.md
+sources:
+- https://docs.amesa.com/reference/cli-reference.md
+- https://docs.amesa.com/reference/cli-reference/agent-management.md
+- https://docs.amesa.com/reference/cli-reference/skill-management.md
+- https://docs.amesa.com/reference/cli-reference/simulator-management.md
+install:
+- method: pip
+  command: pip install composabl
+commands:
+- group: composabl
+  commands:
+  - --help
+  - version
+  - debug
+  - login
+  - --install-completion bash
+  - --install-completion zsh
+  - --install-completion fish
+- group: agent
+  commands:
+  - new
+  - train
+  - visualize
+- group: skill
+  commands:
+  - new
+  - publish
+  - list
+  - delete
+- group: sim
+  commands:
+  - new
+  - run
+  - validate
+  - benchmark
+  - start
+  - status
+  - logs
+  - stop
+  - info
+  - mappings
+  - list
+  - publish
+  - delete
+binary: composabl
+docs: https://docs.amesa.com/reference/cli-reference.md

@@ -1,0 +1,88 @@
+generated: '2026-10-10'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 5
+  own: 5
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - other
+  - portal
+  - website
+hosts:
+- host: api.amesa.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: amesa.com
+  role: api
+  relation: own
+- host: app.amesa.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: amesa.com
+  role: other
+  relation: own
+- host: docs.amesa.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - site-links
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - APIReference
+  - GettingStarted
+  - Documentation
+  - DeveloperPortal
+  serves:
+  - docs
+  - cdn
+  - documentation
+  - hosting
+  vendor: cloudflare
+  registrable_domain: amesa.com
+  role: portal
+  relation: own
+- host: trust.amesa.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - TrustCenter
+  serves: []
+  registrable_domain: amesa.com
+  role: other
+  relation: own
+- host: www.amesa.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - TermsOfService
+  - PrivacyPolicy
+  - Website
+  serves: []
+  registrable_domain: amesa.com
+  role: website
+  relation: own

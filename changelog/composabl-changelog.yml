@@ -1,0 +1,19 @@
+generated: '2026-10-10'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.amesa.com/reference/release-notes.md
+sources:
+- https://docs.amesa.com/reference/release-notes.md
+- https://docs.amesa.com/reference/release-notes
+entries:
+- breaking: false
+  highlights:
+  - This release resolves a bug in the sign-up confirmation process that caused an error page after clicking the confirmation link, along with
+    a minor hotfix.
+  - Resolved an issue where the sign-up confirmation link sent to new users redirected to an error page instead of successfully confirming the
+    account.
+  - New users can now complete the registration process as expected.
+  - Implemented a small fix to address a minor issue and improve overall system stability.
+  date: '2026-03-06'
+note: Versioning scheme not specified on the page; set to null. No breaking changes indicated.
+docs: https://docs.amesa.com/reference/release-notes.md

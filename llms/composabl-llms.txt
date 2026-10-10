@@ -1,0 +1,120 @@
+# AMESA
+
+## Main
+
+- [Welcome to AMESA](https://docs.amesa.com/readme.md)
+- [Get Started](https://docs.amesa.com/getting-started.md)
+- [About AMESA](https://docs.amesa.com/get-started/about-amesa.md)
+- [AMESA Workflow](https://docs.amesa.com/get-started/amesa-workflows.md)
+- [Access AMESA](https://docs.amesa.com/get-started/access-amesa.md)
+- [Release Notes](https://docs.amesa.com/reference/release-notes.md)
+- [CLI Reference](https://docs.amesa.com/reference/cli-reference.md)
+- [Agent Management](https://docs.amesa.com/reference/cli-reference/agent-management.md)
+- [Skill Management](https://docs.amesa.com/reference/cli-reference/skill-management.md)
+- [Simulator Management](https://docs.amesa.com/reference/cli-reference/simulator-management.md)
+- [Perceptor Management](https://docs.amesa.com/reference/cli-reference/perceptor-management.md)
+- [Orchestrator Management](https://docs.amesa.com/reference/cli-reference/orchestrator-management.md)
+- [Job Management](https://docs.amesa.com/reference/cli-reference/job-management.md)
+- [Historian Management](https://docs.amesa.com/reference/cli-reference/historian-management.md)
+- [Benchmarking Tools](https://docs.amesa.com/reference/cli-reference/benchmarking-tools.md)
+- [CI/CD Integration](https://docs.amesa.com/reference/cli-reference/ci-cd-integration.md)
+- [Plugins](https://docs.amesa.com/reference/cli-reference/plugins.md)
+- [SDK Reference](https://docs.amesa.com/reference/sdk-reference.md)
+- [Main](https://docs.amesa.com/reference/sdk-reference/main.md)
+- [Quick Start Examples](https://docs.amesa.com/reference/sdk-reference/main/quick-start-examples.md)
+- [Core](https://docs.amesa.com/reference/sdk-reference/core.md)
+- [Agent API](https://docs.amesa.com/reference/sdk-reference/core/agent-api.md)
+- [Sensors API](https://docs.amesa.com/reference/sdk-reference/core/sensors-api.md)
+- [Skills API](https://docs.amesa.com/reference/sdk-reference/core/skills-api.md)
+- [Goals API](https://docs.amesa.com/reference/sdk-reference/core/goals-api.md)
+- [Scenarios API](https://docs.amesa.com/reference/sdk-reference/core/scenarios-api.md)
+- [Perceptors API](https://docs.amesa.com/reference/sdk-reference/core/perceptors-api.md)
+- [Train](https://docs.amesa.com/reference/sdk-reference/train.md)
+- [Glossary](https://docs.amesa.com/reference/glossary.md)
+- [Sample Use Cases](https://docs.amesa.com/reference/sample-use-cases.md)
+- [Industrial Mixer](https://docs.amesa.com/tutorials/industrial-mixer.md)
+- [Get Started](https://docs.amesa.com/tutorials/industrial-mixer/getting-started.md)
+- [Deep Reinforcement Learning](https://docs.amesa.com/tutorials/industrial-mixer/deep-reinforcement-learning.md)
+- [Strategy Pattern](https://docs.amesa.com/tutorials/industrial-mixer/strategy-pattern.md)
+- [Strategy Pattern with a Perception Layer](https://docs.amesa.com/tutorials/industrial-mixer/strategy-pattern-with-a-perception-layer.md)
+- [Plan-Execute Pattern](https://docs.amesa.com/tutorials/industrial-mixer/plan-execute-pattern.md)
+- [Material Fusion](https://docs.amesa.com/tutorials/material-fusion.md)
+- [Create a Simulation](https://docs.amesa.com/tutorials/material-fusion/create-a-simulation.md)
+- [Generate Activity Clusters and Scenarios](https://docs.amesa.com/tutorials/material-fusion/generate-activity-clusters-and-scenarios.md)
+- [Configure and Train Your First Agent](https://docs.amesa.com/tutorials/material-fusion/configure-and-train-your-first-agent.md)
+- [Build a Multi-Agent System](https://docs.amesa.com/tutorials/material-fusion/build-a-multi-agent-system.md)
+- [Evaluate Agent Performance](https://docs.amesa.com/tutorials/material-fusion/evaluate-agent-performance.md)
+- [Solution Design](https://docs.amesa.com/tutorials/solution-design.md)
+- [1. Define a Use Case](https://docs.amesa.com/tutorials/solution-design/1.-define-a-use-case.md)
+- [2. Codify Expertise](https://docs.amesa.com/tutorials/solution-design/2.-codify-expertise.md)
+- [3. Analyze Current Methods](https://docs.amesa.com/tutorials/solution-design/3.-analyze-current-methods.md)
+- [4. Format and Upload Data](https://docs.amesa.com/tutorials/solution-design/4.-format-and-upload-data.md)
+- [5. Define Scenarios and Strategies](https://docs.amesa.com/tutorials/solution-design/5.-define-scenarios-and-strategies.md)
+- [6. Configure Agents](https://docs.amesa.com/tutorials/solution-design/6.-configure-agents.md)
+- [7. Orchestrate Agents](https://docs.amesa.com/tutorials/solution-design/7.-orchestrate-agents.md)
+- [8. Select Technologies](https://docs.amesa.com/tutorials/solution-design/8.-select-technologies.md)
+- [Simulation Overview](https://docs.amesa.com/establish-agent-feedback/about-simulation.md)
+- [Data Driven Simulation](https://docs.amesa.com/establish-agent-feedback/data-driven-simulation.md)
+- [Connect a Simulator to AMESA](https://docs.amesa.com/establish-agent-feedback/connect-a-simulator-to-amesa.md)
+- [AMESA Simulation API](https://docs.amesa.com/establish-agent-feedback/amesa-simulation-api.md)
+- [Generate Activity Clusters](https://docs.amesa.com/identify-agent-skills/generate-activity-clusters.md)
+- [Activity Clusters in AMESA](https://docs.amesa.com/identify-agent-skills/activity-clusters-in-amesa.md)
+- [Anatomy of a Multi-Agent System](https://docs.amesa.com/build-multi-agent-systems/anatomy-of-an-agent.md)
+- [Create a Use Case](https://docs.amesa.com/build-multi-agent-systems/create-a-project.md)
+- [Configure Scenarios](https://docs.amesa.com/build-multi-agent-systems/configure-scenarios.md)
+- [Set Goals, Constraints, and Success Criteria](https://docs.amesa.com/build-multi-agent-systems/set-a-performance-goal.md)
+- [Create Agents](https://docs.amesa.com/build-multi-agent-systems/define-skills.md)
+- [Create Agents with the Agent Orchestration Studio](https://docs.amesa.com/build-multi-agent-systems/define-skills/train-with-goals-using-the-ui.md)
+- [Create Agents with Rewards Using Python](https://docs.amesa.com/build-multi-agent-systems/define-skills/train-with-goals-or-rewards-using-the-sdk.md)
+- [Deep Dive: Create and Publish Teachers](https://docs.amesa.com/build-multi-agent-systems/define-skills/train-with-goals-or-rewards-using-the-sdk/deep-dive-create-and-publish-teachers.md)
+- [Configure Programmed Algorithms as Skill Agents](https://docs.amesa.com/build-multi-agent-systems/define-skills/configure-programmed-algorithms-as-skills.md)
+- [Deep Dive: Create and Publish Controllers](https://docs.amesa.com/build-multi-agent-systems/define-skills/configure-programmed-algorithms-as-skills/deep-dive-create-and-publish-controllers.md)
+- [Configure API Connections to Third-Party Software as Skill Agents](https://docs.amesa.com/build-multi-agent-systems/define-skills/configure-api-connections-to-third-party-software-as-skills.md)
+- [Orchestrate Skill Agents](https://docs.amesa.com/build-multi-agent-systems/orchestrate-skills.md)
+- [Deep Dive: Create and Publish Orchestrators](https://docs.amesa.com/build-multi-agent-systems/orchestrate-skills/deep-dive-create-and-publish-orchestrators.md)
+- [Add a Perception Layer](https://docs.amesa.com/build-multi-agent-systems/add-a-perception-layer.md)
+- [Create and Publish a Perceptor](https://docs.amesa.com/build-multi-agent-systems/add-a-perception-layer/create-and-publish-a-perceptor.md)
+- [Create a New Perceptor](https://docs.amesa.com/build-multi-agent-systems/add-a-perception-layer/create-a-new-perceptor.md)
+- [Configure an ML Model as a Perceptor](https://docs.amesa.com/build-multi-agent-systems/add-a-perception-layer/configure-an-ml-model-as-a-perceptor.md)
+- [Configure an LLM Model as a Perceptor](https://docs.amesa.com/build-multi-agent-systems/add-a-perception-layer/configure-an-llm-model-as-a-perceptor.md)
+- [Import Agents to the Agent Orchestration Studio](https://docs.amesa.com/build-multi-agent-systems/import-agent-components-to-the-ui.md)
+- [Submit a Training Job through the UI](https://docs.amesa.com/train-agents/submit-a-training-job-through-the-ui.md)
+- [Understand Training Behavior](https://docs.amesa.com/train-agents/view-benchmark-reporting-in-the-ui.md)
+- [Analyze Agent System Behavior](https://docs.amesa.com/train-agents/analyze-agent-behavior.md)
+- [Analyze Data in Detail with the Historian](https://docs.amesa.com/train-agents/analyze-agent-behavior/analyze-data-in-detail-with-the-historian.md)
+- [Analyze Benchmark Performance](https://docs.amesa.com/evaluate-performance/set-kpi-and-roi.md)
+- [Analyze Data](https://docs.amesa.com/evaluate-performance/analyze-data.md)
+- [Deployment Options](https://docs.amesa.com/deploy-agents/deployment-options.md)
+- [Deploy with the AMESA Runtime Server](https://docs.amesa.com/deploy-agents/deploy-with-the-amesa-runtime-server.md)
+- [Access a Trained Agent System](https://docs.amesa.com/deploy-agents/access-a-trained-agent.md)
+- [Deploy an Agent System in a Container](https://docs.amesa.com/deploy-agents/deploy-an-agent-in-a-container.md)
+- [Deploy an Agent System as an API](https://docs.amesa.com/deploy-agents/deploy-an-agent-as-an-api.md)
+- [Connect Runtime Container to Your Operation](https://docs.amesa.com/deploy-agents/connect-runtime-container-to-your-operation.md)
+- [Connecting to Agent System Runtime and Plotting Results of Agent System Operations](https://docs.amesa.com/deploy-agents/connecting-to-agent-runtime-and-plotting-results-of-agent-operations.md)
+- [Training Infrastructure Options](https://docs.amesa.com/training-infrastructure/training-infrastructure-options.md)
+- [Creating a Cluster](https://docs.amesa.com/training-infrastructure/creating-a-cluster.md)
+- [Manual](https://docs.amesa.com/training-infrastructure/creating-a-cluster/manual.md)
+- [Automated](https://docs.amesa.com/training-infrastructure/creating-a-cluster/automated.md)
+- [Azure](https://docs.amesa.com/training-infrastructure/creating-a-cluster/azure.md)
+- [Connecting a Cluster](https://docs.amesa.com/training-infrastructure/connecting-a-cluster.md)
+- [Resolving Certificate Issues for Installing the AMESA SDK on WSL](https://docs.amesa.com/troubleshooting/resolving-certificate-issues-for-installing-the-amesa-sdk-on-wsl.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+This site has an agentic ask interface you may use to query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the following URL with the `ask` and `goal` query parameters:
+
+```
+GET https://docs.amesa.com/index.md?ask=<question>&goal=<user_goal>
+```
+
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is what the user is ultimately trying to achieve, the reason they need the answer. Sharing it helps GitBook give you a better, more relevant answer. A goal is most helpful when it describes the outcome the user wants rather than restating the question. For example, with `ask=how do I create an API token`, a goal like `automate deployments from our CI pipeline` lets GitBook tailor the answer to that use case.
+
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
