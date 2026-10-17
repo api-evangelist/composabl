@@ -1,0 +1,162 @@
+openapi: 3.2.0
+info:
+  title: Composabl Reference API
+  version: '2026-10-10'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-10: 4 operation(s) read from 16 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; Composabl has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 0
+    documentation: 4
+    pages-with-code: 0
+    pages-read: 16
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-10'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://docs.amesa.com/reference/glossary.md
+  - https://docs.amesa.com/reference/cli-reference.md
+  - https://docs.amesa.com/reference/sdk-reference.md
+  - https://docs.amesa.com/reference/sample-use-cases.md
+  - https://docs.amesa.com/reference/sdk-reference/core.md
+  - https://docs.amesa.com/reference/sdk-reference/main.md
+  - https://docs.amesa.com/reference/sdk-reference/train.md
+  - https://docs.amesa.com/reference/cli-reference/plugins.md
+  - https://docs.amesa.com/reference/cli-reference/job-management.md
+  - https://docs.amesa.com/reference/sdk-reference/core/agent-api.md
+  - https://docs.amesa.com/reference/sdk-reference/core/goals-api.md
+  - https://docs.amesa.com/reference/sdk-reference/core/skills-api.md
+  - https://docs.amesa.com/reference/cli-reference/agent-management.md
+  - https://docs.amesa.com/reference/cli-reference/skill-management.md
+  - https://docs.amesa.com/reference/sdk-reference/core/sensors-api.md
+  - https://docs.amesa.com/reference/cli-reference/ci-cd-integration.md
+tags:
+- name: Reference
+paths:
+  /reference/cli-reference/{clireferenceid}:
+    get:
+      operationId: get_reference_cli_reference_clireferenceid
+      tags:
+      - Reference
+      summary: Querying This Documentation
+      x-source: https://docs.amesa.com/reference/cli-reference/agent-management.md
+      parameters:
+      - name: clireferenceid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: ask
+        in: query
+        required: true
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained, written in natural language.
+      - name: goal
+        in: query
+        required: true
+        schema:
+          type: string
+        description: The user’s ultimate goal, describing the desired outcome.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+        collapsed_from: 5 example path(s) differing only at clireferenceId
+  /reference/sdk-reference/core/{coreid}:
+    get:
+      operationId: get_reference_sdk_reference_core_coreid
+      tags:
+      - Reference
+      summary: Agent API
+      description: Perform an HTTP GET request on the documentation page with the `ask` and `goal` query parameters to retrieve a direct answer and relevant excerpts from the documentation.
+      x-source: https://docs.amesa.com/reference/sdk-reference/core/agent-api.md
+      parameters:
+      - name: coreid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: ask
+        in: query
+        required: true
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained, written in natural language.
+      - name: goal
+        in: query
+        required: true
+        schema:
+          type: string
+        description: The user’s ultimate goal, describing the outcome they want to achieve.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+        collapsed_from: 4 example path(s) differing only at coreId
+  /reference/sdk-reference/{sdkreferenceid}:
+    get:
+      operationId: get_reference_sdk_reference_sdkreferenceid
+      tags:
+      - Reference
+      summary: AMESA Core API Documentation
+      x-source: https://docs.amesa.com/reference/sdk-reference/core.md
+      parameters:
+      - name: sdkreferenceid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user’s overall goal, describing the desired outcome.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+        collapsed_from: 3 example path(s) differing only at sdkreferenceId
+  /reference/{referenceid}:
+    get:
+      operationId: get_reference_referenceid
+      tags:
+      - Reference
+      summary: CLI Reference
+      description: Perform an HTTP GET request on the documentation page with optional `ask` and `goal` query parameters to retrieve a direct answer and relevant excerpts from the CLI reference.
+      x-source: https://docs.amesa.com/reference/cli-reference.md
+      parameters:
+      - name: referenceid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question to ask the documentation, specific and self‑contained, written in natural language.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The broader goal the user wants to achieve, helping to tailor the answer.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+        collapsed_from: 4 example path(s) differing only at referenceId

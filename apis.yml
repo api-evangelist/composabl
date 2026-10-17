@@ -75,21 +75,21 @@ common:
 
 apis:
 - name: AMESA Platform API
-  description: Composabl, now operating as AMESA, provides an advanced modular enterprise system for autonomous agent orchestration.
+  description: >-
+    Composabl, now operating as AMESA, provides an advanced modular enterprise system for autonomous agent
+    orchestration.
   humanURL: https://docs.amesa.com/
   baseURL: null
   aid: composabl:amesa-platform-api
-- aid: composabl:composabl-api
-  name: Composabl API
-  description: 'Composabl API as documented publicly: 4 operations. Contract generated from the documentation by API Evangelist (2026-10-10);
-
-    not the provider''s own document.'
-  humanURL: https://docs.amesa.com/reference/glossary.md
+- aid: composabl:composabl-reference-api
+  name: Composabl Reference API
+  description: The Reference API from Composabl — 4 operation(s) for reference.
+  humanURL: https://docs.amesa.com/
+  tags:
+  - Reference
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/composabl-openapi-generated.yml
-    x-provenance: generated
-
+    url: openapi/composabl-reference-api-openapi.yml
 x-coverage:
   state: unreadable
   reason: no-machine-readable-spec
