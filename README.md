@@ -64,5 +64,96 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Composabl is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Composabl, now operating as AMESA, provides an advanced modular enterprise system for autonomous agent orchestration. The platform enables enterprises to design, train, and deploy intelligent agents at scale, offering tools for simulation, skill generation, and multi‑agent system management. AMESA focuses on industrial AI, delivering secure, data‑driven solutions for complex enterprise workflows.
+
+**Areas:** Artificial Intelligence · Enterprise · Automation · Agents · Platform · Company
+
+## Composabl on APIs.io
+
+Everything profiled for Composabl is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/composabl/](https://apis.io/providers/composabl/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [AMESA Platform API](https://apis.io/apis/composabl/amesa-platform-api/) — Composabl, now operating as AMESA, provides an advanced modular enterprise system for autonomous agent orchestration.
+- [Composabl Reference API](https://apis.io/apis/composabl/composabl-reference-api/) — The Reference API from Composabl — 4 operation(s) for reference.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Composabl API Rules](https://apis.io/rules/composabl/composabl-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Composabl Domain Security](https://apis.io/security/composabl/composabl-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.amesa.com/)
+- [Documentation](https://docs.amesa.com/)
+- [Getting started](https://docs.amesa.com/getting-started)
+- [API reference](https://docs.amesa.com/reference/glossary)
+- [Trust centre](https://trust.amesa.com/)
+- [Terms of service](https://www.amesa.com/terms)
+- [Privacy policy](https://www.amesa.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 38.8** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 9.4 |
+| Contract governance | 18.2 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 78.6 |
+
+**Agent readiness 19.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 21.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/composabl/](https://apis.io/providers/composabl/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Composabl: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/composabl/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
